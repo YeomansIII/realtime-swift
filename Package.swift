@@ -12,12 +12,11 @@ let package = Package(
     )
   ],
   dependencies: [
-    .package(url: "https://github.com/daltoniam/Starscream.git", from: "3.0.0")
   ],
   targets: [
     .target(
       name: "Realtime",
-      dependencies: ["Starscream"]
+      dependencies: []
     ),
     .testTarget(
       name: "RealtimeTests",
